@@ -1,0 +1,73 @@
+.review {
+    background-color: #F7FBFC;
+    
+    &__container {
+        display: flex;
+        padding-left: 97px;
+        padding-right: 98px;
+        padding-bottom: 110px;
+    }
+
+    &__content {
+        margin-left: 100px;
+        max-width: 600px;
+    }
+
+    &__title {
+        font-size: 16px;
+        line-height: 26px;
+        text-transform: uppercase;
+        color: #4595B3;
+        margin-top: 56px;
+        margin-bottom: 7px;
+    }
+
+    &__main-text {
+        font-family: "Roboto Condensed", sans-serif;
+        font-weight: 300;
+        font-size: 40px;
+        line-height: 53px;
+        color: #181726;
+    }
+
+    &__text {
+        font-size: 16px;
+        line-height: 26px;
+        color: #404554;
+        margin-bottom: 25px;
+        margin-top: 29px;
+    }
+
+    &__author-name {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 26px;
+        color: #181726;
+        span {
+            color: #8B91A6;
+            margin-left: 8px;
+        }
+    }
+
+    &__slide {
+        display: flex;
+    }
+
+    &__slide-arrows {
+        display: flex;
+        margin-top: 72px;
+        margin-left: 480px;
+    }    
+        
+    &__slide-arrow {
+        border-radius: 50%;
+        background-color: #ED008C;
+        &--left {
+            padding: 19px 22px 19px 21px;
+            margin-right: 20px;
+        }
+        &--right {
+            padding: 19px 21px 19px 22px;
+        }
+    }   
+}

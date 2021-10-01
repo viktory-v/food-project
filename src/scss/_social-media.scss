@@ -1,0 +1,22 @@
+.social-media {
+    display: flex;
+    width: 100px;
+    &__icon:not(:last-child) {
+        margin-right: 24px;
+    }
+    &__icon {
+        &--facebook {
+            width: 9.6px;
+            height: 20.4px; 
+         }
+         &--twitter {
+             width: 19.8px;
+             height: 16.8px;
+         }
+         &--instagram {
+             width: 18.87px;
+             height: 18.87px;
+         }
+    }
+
+}

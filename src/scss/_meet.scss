@@ -1,0 +1,49 @@
+.meet {
+    display: flex;
+
+    &__image {
+        margin-top: -36px;
+        margin-left: 11px;
+    }
+   
+    &__content {
+        max-width: 740px;
+        margin-left: -200px;
+        margin-top: 112px;
+
+    }
+
+    &__title {
+       font-family: "Roboto Condensed", sans-serif; 
+       font-size: 45px;
+       line-height: 53px;
+       color: #181726;
+       font-weight: 300;
+    }
+
+    &__text-subtitle {
+        font-size: 20px;
+        line-height: 30px; 
+        color: #8B91A6; 
+        margin-top: 17px;
+        margin-bottom: 35px;
+    }
+
+    &__text {
+        font-size: 16px;
+        line-height: 26px;
+        color: #404554
+    }
+
+    &__button {
+        color: #ED008C;
+        border: 1px solid #ED008C;
+        background-color: #fff;
+        font-weight: 500;
+        font-size: 16px;
+        margin-left: 573px;
+        margin-top: 47px;
+        padding: 6px 36px;
+    }
+
+}

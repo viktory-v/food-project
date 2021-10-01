@@ -1,0 +1,32 @@
+.header {
+    box-shadow: inset 0px -1px 0px #E9E9E9;
+    font-size: 16px;
+    height: 70px;
+
+    &__container {
+        display: flex;
+        align-items: center;
+   }
+
+    &__logo {
+        margin-bottom: -49px;
+        margin-right: 27px;
+        padding-top: 14px;
+    }
+
+    &__text {
+        line-height: 24px;
+        margin-bottom: 3px;
+        margin-right: 71px;
+        white-space: nowrap;
+    }
+
+    &__social-media {
+        margin-right: 74px;
+        margin-bottom: 7px;
+    }
+
+    &__main-nav {
+        margin-bottom: 5px;
+    }
+}

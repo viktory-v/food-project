@@ -1,0 +1,65 @@
+.join-us {
+    background-color: #78BDD7;
+
+    &__container {
+        display: flex;
+        padding-left: 97px;
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+
+    &__title {
+       font-family: "Roboto Condensed";
+       font-weight: 400;
+       font-size: 35px;
+       line-height: 30px;
+       color: #fff; 
+       margin-right: 114px;
+       margin-bottom: 0;
+       padding-top: 13px;
+    }
+
+    &__input {
+        font-size: 18px;
+        line-height: 30px;
+        box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.0236923);
+        border: none;
+        padding-top: 12px;
+        padding-bottom: 13px;
+        &--name {
+            width: 357px;
+            border-radius: 27.5px 0 0 27.5px;
+            padding-left: 30px;
+            margin-right: -2px;
+        }
+        &--email {
+            width: 421px;
+            border-radius: 0 27.5px 27.5px 0;
+            padding-left: 19px;
+            padding-right: 70px;
+        }
+        &::placeholder {
+            color: #A4ABC1;
+        }
+    }
+
+    &__form {
+        position: relative;
+    }
+    
+    &__button {
+        position: absolute;
+        border: none;
+        background-color: #F066A6;
+        box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.0236923);
+        border-radius: 27.5px;
+        max-width: 66px;
+        width: 100%;
+        max-height: 45px;
+        height: 100%;
+        top: 5px;
+        right: 6px;
+        opacity: 0.5;
+        z-index: 10;
+    }
+}

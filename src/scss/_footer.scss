@@ -1,0 +1,39 @@
+.footer {
+
+    &__container {
+        display: flex;
+        margin-top: 47px;
+        margin-bottom: 51px;
+        padding-left: 3px;
+    }
+
+    &__title {
+        white-space: nowrap;
+        font-size: 16px;
+        line-height: 26px;
+        color: #404554;
+        &--pink {
+            color: #ED008C;
+            margin-right: 4px;
+            margin-left: 3px;
+        }
+    }
+
+    &__social-media {
+        margin-left: 87px;
+        margin-right: 87px;
+        margin-top: 5px;
+    }
+
+    &__text {
+        white-space: nowrap;
+        font-size: 16px;
+        line-height: 26px;
+        color: #404554;
+        padding-top: 1px;
+        &--bold {
+            font-weight: 500;
+            color: #404554;
+        }
+    }
+}

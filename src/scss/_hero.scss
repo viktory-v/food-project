@@ -1,0 +1,94 @@
+.hero {
+    background-image: url(../img/hero-image.jpeg);
+    background-repeat: no-repeat;
+    background-position: 99% 0%;
+    background-color: $background-color;
+    &__container {
+        padding-top: 127px;
+    }
+
+    &__title-box {
+       width: 530px;
+       margin-left: 88px;
+       margin-bottom: 0;
+    }
+
+    &__text-under-title {
+        font-weight: 300;
+        font-size: 25px;
+        line-height: 1.48;
+        color: #404554;
+        margin-bottom: 0;
+    }
+
+    &__title {
+        font-family: "Roboto Condensed";
+        font-weight: 300;
+        font-size: 75px;
+        line-height: 76px;
+        color: #181726;
+        span {
+            position: relative;
+            margin-left: 25px;
+            margin-right: 34px;
+            z-index: 2;
+            &::before {
+                content: "";
+                background-image: url(../img/hero-figure.svg);
+                background-repeat: no-repeat;
+                width: 120%;
+                position: absolute;
+                height: 110%;
+                left: -25px;
+                top: 1px;
+                z-index: -1;
+            }
+        }
+    }
+
+    &__content {
+        margin-top: 58px;
+        width: 503px;
+        margin-left: 95px;
+        padding-bottom: 101px;
+        display: flex;
+    }
+}
+
+.latest-podcast {
+    margin-top: 65px;
+    width: 503px;
+    margin-left: 88px;
+    padding-bottom: 110px;
+    display: flex;
+    &__button {
+        width: 208px;
+        height: 63px;
+        text-align: center;
+        margin-right: 40px;
+        img {
+           margin-right: 16px; 
+           margin-bottom: 3px;
+        }
+    }
+
+    &__inner {
+        margin: auto 0;
+        padding-top: 7px;
+    }
+
+    &__text {
+        font-weight: 600;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: #59AAC8;
+        margin-bottom: 0;
+    }
+
+    &__name {
+        font-weight: 500;
+        font-size: 15px;
+        color: #8B91A6;
+        margin-bottom: 0;
+    }
+}

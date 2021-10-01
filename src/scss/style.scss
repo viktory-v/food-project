@@ -1,0 +1,105 @@
+$font-stack: -apple-system, BlinkMacSystemFont, Roboto, "Open Sans", "Helvetica Neue", sans-serif;
+$primary-color: #8B91A6;
+$pink: #ED008C;
+$background-color: #F7FBFC;
+
+@import "~bootstrap/scss/bootstrap";
+
+@font-face {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 300;
+  src: url(../fonts/RobotoCondensed-Light.ttf);
+}
+
+@font-face {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/RobotoCondensed-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  src: url(../fonts/Poppins-Light.ttf);
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  src: url(../fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  src: url(../fonts/Poppins-SemiBold.ttf);
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", $font-stack;
+  font-weight: 400;
+  color: $primary-color;
+  #logo {
+    width: 10rem;
+  }
+  // .container {
+  //   img {
+  //     width: 20rem;
+  //   }
+  // }
+}
+
+.container {
+  max-width: 1365px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+a[class] {
+  text-decoration: none;
+  line-height: 1;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+@import "header.scss";
+@import "social-media.scss";
+@import "main-nav.scss";
+@import "hero.scss";
+@import "button.scss";
+@import "join-us.scss";
+@import "podcast.scss";
+@import "card.scss";
+@import "meet.scss";
+@import "journey.scss";
+@import "review.scss";
+@import "footer.scss";
